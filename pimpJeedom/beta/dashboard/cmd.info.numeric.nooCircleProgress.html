@@ -1,10 +1,10 @@
 <div style="margin:5px 2px 5px 2px;" class="cmd cmd-widget tooltips #history#" data-type="info" data-subtype="numeric"
     data-cmd_id="#id#" data-cmd_uid="#uid#" data-version="#version#" data-eqLogic_id="#eqLogic_id#">
-    <!-- ################ circleProgress ################ 
+    <!-- ################ nooCircleProgress ################ 
        ********** Paramètres Optionnels ***************
 		
         style : choix parmi une liste de paramétrages prédéfinis des champs ci-dessous (valeur de 1 à 13)
-	useStyle : choix d'utilisation des styes prédéfini (par défaut 'only_style', valeurs possible : no_style,only_style,style_with_options)
+        useStyle : choix d'utilisation des styles prédéfinis (par défaut 'only_style', valeurs possible : no_style,only_style,style_with_options)
         min : valeur minimum autorisée (0 par défaut)
         max : valeur maximum autorisée (100 par défaut)
         angleDebut : Angle de début d'affichage (0 par défaut)
@@ -44,7 +44,7 @@
 
         <script>
 
-            $.include(['plugins/pimpJeedom/core/template/dashboard/cmd.info.numeric.circleProgress/circle-progress.js'],
+            $.include(['plugins/pimpJeedom/core/template/dashboard/cmd.info.numeric.nooCircleProgress/circle-progress.js'],
                 function () {
                     // Récupération des paramètres
                     let min = 0, max = 100, angleDebut = 0, ordreInverse = 0, taille = '250px', couleurFond = 'transparent', unite = 'none', format = 'percent', dureeAnimation = 400;
